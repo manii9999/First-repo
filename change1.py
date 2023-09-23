@@ -42,6 +42,8 @@ final_load = str(load)
 
  #   load = str(file.read().strip())
 
+ load
+
   #  l = len(load)
 
    # final_load = load[:l-13]
