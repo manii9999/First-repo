@@ -34,7 +34,7 @@ cmd = float(cmd)
 #print(load1)
 
 
-load = os.popen("uptime |awk '{print $9,$10,$11}' | head -1").read().strip()
+load = os.popen("uptime |awk '{print $8,$9,$10}' | head -1").read().strip()
 
 final_load = str(load)
 
